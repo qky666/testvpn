@@ -11,10 +11,6 @@ public class TestVPN {
 
     @Test
     void testVpn() throws InterruptedException {
-        Configuration.browser = "chrome";
-        Configuration.baseUrl = "https://google.com";
-        Configuration.headless = true;
-        Configuration.remote = "http://chrome_vpn:4444";
         Selenide.open("");
         Thread.sleep(3000);
         logger.info("Screenshot file: " + Selenide.screenshot("screenshot"));
