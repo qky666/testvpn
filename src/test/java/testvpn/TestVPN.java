@@ -10,7 +10,7 @@ public class TestVPN {
         Configuration.browser = "chrome";
         Configuration.baseUrl = "https://google.com";
         Configuration.headless = true;
-        Configuration.remote = "chrome_vpn";
+        Configuration.remote = "http://chrome_vpn:4444";
         Selenide.open();
     }
 }
