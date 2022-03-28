@@ -17,6 +17,6 @@ public class TestVPN {
         Configuration.remote = "http://chrome_vpn:4444";
         Selenide.open();
         Thread.sleep(8000);
-        logger.info(Selenide.screenshot("screenshot"));
+        logger.info("Screenshot file: " + Selenide.screenshot("screenshot"));
     }
 }
