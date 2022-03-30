@@ -11,6 +11,7 @@ public class TestVPN {
     @Test
     void testVpn() throws InterruptedException {
         Selenide.open("");
+        Selenide.$("button[name=answer").click();
         Thread.sleep(3000);
         logger.info("Screenshot file: " + Selenide.screenshot("screenshot"));
     }
