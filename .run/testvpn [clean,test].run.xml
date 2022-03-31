@@ -12,8 +12,6 @@
             <list>
               <option value="clean" />
               <option value="test" />
-              <option value="-Dselenide.remote=http://192.168.1.165:4444" />
-              <option value="-Dselenide.baseUrl=https://webpublica-cms-frontend-webpublica.apps.preprod.az.internal" />
             </list>
           </option>
           <option name="pomFileName" />
